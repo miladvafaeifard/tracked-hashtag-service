@@ -1,4 +1,4 @@
-package springfive.trackedhashtagservice
+package springfive.twittertracked.TrackedHashTagApplication
 
 import org.junit.Test
 import org.junit.runner.RunWith
@@ -7,7 +7,7 @@ import org.springframework.test.context.junit4.SpringRunner
 
 @RunWith(SpringRunner::class)
 @SpringBootTest
-class TrackedHashtagServiceApplicationTests {
+class TrackedHashTagApplicationTests {
 
 	@Test
 	fun contextLoads() {
