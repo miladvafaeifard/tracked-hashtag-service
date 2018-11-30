@@ -1,11 +1,11 @@
-package springfive.trackedhashtagservice
+package springfive.twittertracked
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
 
 @SpringBootApplication
-class TrackedHashtagServiceApplication
+class TrackedHashTagApplication
 
 fun main(args: Array<String>) {
-    runApplication<TrackedHashtagServiceApplication>(*args)
+    runApplication<TrackedHashTagApplication>(*args)
 }

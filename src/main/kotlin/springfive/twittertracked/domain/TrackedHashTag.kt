@@ -1,3 +1,3 @@
-package main.kotlin.springfive.twittertracked.domain;
+package springfive.twittertracked.domain;
 
-data class TrackedHashTag(val hasTag: String, val queue: String)
+data class TrackedHashTag(val hashTag: String, val queue: String)
