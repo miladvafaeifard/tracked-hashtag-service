@@ -2,3 +2,15 @@ spring:
   redis:
     host: localhost
     port: 6379
+
+server:
+  port: 9090
+---
+spring:
+  profile: docker
+  redis:
+    host: redis
+    port: 6379
+
+server:
+  port: 9090
