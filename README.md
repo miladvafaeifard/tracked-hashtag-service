@@ -20,4 +20,4 @@ Docker
 
 We should wee the springfivebyexample/tracked_hashtag on the image list in docker running.
 
-`docker run -d --name hashtag-tracker --net --twitter -p 9090:9090 springfivebyexample/tracked_hashtag`
+`docker run -d --name hashtag-tracker --net twitter -p 8080:8080 springfivebyexample/tracked_hashtag`
